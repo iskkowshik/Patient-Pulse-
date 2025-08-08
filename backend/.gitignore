@@ -1,0 +1,53 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Debug files
+*.swp
+*.swo
+
+# Optional npm cache directory
+.npm
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# PM2
+pids
+*.pid
+*.seed
+
+# VSCode and IDE settings
+.vscode/
+.idea/
+
+# Build output
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+jest-test-results.json
+
+# Mongo dump
+dump/
